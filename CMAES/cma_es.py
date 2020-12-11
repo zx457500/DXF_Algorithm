@@ -31,7 +31,7 @@ class gtsp():
         return ([0] * self.dim, [1] * self.dim)
    
 def main():
-    dxf_doc = dxfgrabber.readfile("ClothesCAD120.dxf")
+    dxf_doc = dxfgrabber.readfile("ClothesCAD.dxf")
     # dxf_doc = dxfgrabber.readfile("Drawing8.dxf")
     dxf = read_dxf.DXF_read(dxf_doc) 
     SEED = 60

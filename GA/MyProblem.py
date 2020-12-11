@@ -31,7 +31,7 @@ class MyProblem(ea.Problem): # 继承Problem父类
         # self.n.append(0)
 
     def readDXF(self):# 读取DXF文件
-        dxf = dxfgrabber.readfile("ClothesCAD120.dxf")
+        dxf = dxfgrabber.readfile("ClothesCAD.dxf")
         # dxf = dxfgrabber.readfile("Drawing8.dxf")
         list_coordinate=[]       # 将直线坐标以（（起点坐标），（终点坐标））的形式放入列表中
         for e in dxf.entities:
